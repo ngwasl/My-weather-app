@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Prompt</title>
+    <script>
+        window.onload = function() {
+            var firstName = prompt("Please enter your first name:");
+
+            // Check if the user entered a name
+            if (firstName) {
+                // Alert welcome message with the first name
+                alert('Welcome, ' + firstName);
+            } else {
+                // Alert if no name was entered
+                alert('Too bad for you');
+            }
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
